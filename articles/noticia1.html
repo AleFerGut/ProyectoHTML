@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="all">
+    <meta name="description" content="¡Pagina de noticias sobre ciberseguridad y algunas otras sobre informatica!">
+    <meta name="keywords" content="ciberseguridad, noticias, informatica">
+    <meta name="author" content="Alejandro Fernandez Gutierrez">
+
+    <!--FIN DE LA ZONA META-->
+
+    <title>Unlocked - Noticias Ciberseguridad</title>
+    <link rel="icon" href="../icons/proteger.png">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<header>
+
+<a id="inicio"></a>
+    <audio controls>
+        <source src="../sounds/noticias1MP3.mp3" type="audio/mpeg">  
+    </audio>
+
+</header>
+
+<main>
+
+    <h1 style="text-align:center"><i>Noticia sobre ataque informático:</i></h1>
+
+<article>
+
+    <h2>El mayor ataque DDOS de la historia.</h2>
+    <p>Microsoft sufre un ataque DDOS de <b>3.47 terabits</b> y 340 millones de paquetes por segundo hasta ahora el
+        mayor ataque de la historia.</p>
+    <h3>Información del ataque</h3>
+    <p>Para llevar a cabo esta técnica, el servidor malicioso de origen genera un paquete UDP modificado para que tenga
+        cómo fuente del mismo la dirección IP de la víctima.
+        <br>Este paquete se envía a un servidor intermedio, que, al recibirlo, comienza a enviar las respuestas a la
+        víctima del ataque. Estas respuestas son de tamaño bastante mayor que el paquete original enviado, por lo que
+        con el tráfico suficiente se consigue que el servicio atacado deje de responder.
+    </p>
+    <iframe width="1350" height="480" src="https://www.youtube.com/embed/7xGdz5Li9Sw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Fecha del incidente: <b>Noviembre de 2021</b></p>
+
+    <!--DATOS SOBRE LA IMAGEN-->
+    <!--https://www.iloveimg.com/ para redimensionar-->
+
+    <figure style="text-align:center">
+        <picture>
+            <source media="(max-width: 799px)" srcset="../images/DDOSlit.png">
+            <source media="(min-width: 800px)" srcset="../images/DDOSbig.png">
+            <img src="./images/DDOS.png" alt="resumen ataque DDOS">
+        </picture>
+        <figcaption>En la imagen vemos una muy breve explicación de como se realiza.</figcaption>
+    </figure>
+
+    <!-- FIN DATOS SOBRE LA IMAGEN-->
+
+    Fuente: <a href="https://unaaldia.hispasec.com/2022/02/microsoft-mitiga-el-mayor-ataque-ddos-de-la-historia.html#:~:text=Con%203.47%20terabits%20y%20340,tambi%C3%A9n%20en%20el%20mismo%20mes.&text=Un%20cliente%20de%20Azure%20en,el%20objetivo%20del%20masivo%20ataque.">Una
+        al día de HISPASEC</a>
+    <br>
+
+</article>
+
+</main>
+
+
+<footer>
+<a id="final"></a>
+        
+        <!--BOTON-->
+        <figure>
+            <a href="#inicio">
+            <picture>
+                <source srcset="../buttons/subirarriba.png">
+                <img src="../buttons/subirarriba.png" alt="Boton volver arriba">
+            </picture>
+            </a>
+        </figure>
+
+        <!--BOTON-->
+        <figure>
+            <a href="../index.htmls">
+            <picture>
+                <source srcset="../buttons/volverinicio.png">
+                <img src="../buttons/volverinicio.png" alt="Boton volver a index">
+            </picture>
+            </a>
+        </figure>
+
+
+        <p>
+            Alumno: Alejandro Fernández Gutiérrez <br>
+            Asignatura: Lenguajes de marcas <br>
+            Curso: 2021-2022 <br>
+        </p>
+        
+        </footer>
+        
+        <!-- FIN FOOTER -->
+</body>
+
+
+</html>
